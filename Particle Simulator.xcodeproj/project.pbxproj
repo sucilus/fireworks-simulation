@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		80CF2F322382214300A0EA88 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 80CF2F312382214300A0EA88 /* main.cpp */; };
 		80CF2F3A2382229A00A0EA88 /* libSDL2-2.0.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 80CF2F392382229A00A0EA88 /* libSDL2-2.0.0.dylib */; };
+		80CF2F3D2384F8DF00A0EA88 /* Screen.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 80CF2F3B2384F8DF00A0EA88 /* Screen.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -27,6 +28,8 @@
 		80CF2F2E2382214300A0EA88 /* Particle Simulator */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Particle Simulator"; sourceTree = BUILT_PRODUCTS_DIR; };
 		80CF2F312382214300A0EA88 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		80CF2F392382229A00A0EA88 /* libSDL2-2.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libSDL2-2.0.0.dylib"; path = "../../../../usr/local/Cellar/sdl2/2.0.10/lib/libSDL2-2.0.0.dylib"; sourceTree = "<group>"; };
+		80CF2F3B2384F8DF00A0EA88 /* Screen.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Screen.cpp; sourceTree = "<group>"; };
+		80CF2F3C2384F8DF00A0EA88 /* Screen.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Screen.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,8 @@
 			isa = PBXGroup;
 			children = (
 				80CF2F312382214300A0EA88 /* main.cpp */,
+				80CF2F3B2384F8DF00A0EA88 /* Screen.cpp */,
+				80CF2F3C2384F8DF00A0EA88 /* Screen.hpp */,
 			);
 			path = "Particle Simulator";
 			sourceTree = "<group>";
@@ -131,6 +136,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				80CF2F322382214300A0EA88 /* main.cpp in Sources */,
+				80CF2F3D2384F8DF00A0EA88 /* Screen.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
