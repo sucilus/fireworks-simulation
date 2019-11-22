@@ -10,6 +10,8 @@
 		80CF2F322382214300A0EA88 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 80CF2F312382214300A0EA88 /* main.cpp */; };
 		80CF2F3A2382229A00A0EA88 /* libSDL2-2.0.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 80CF2F392382229A00A0EA88 /* libSDL2-2.0.0.dylib */; };
 		80CF2F3D2384F8DF00A0EA88 /* Screen.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 80CF2F3B2384F8DF00A0EA88 /* Screen.cpp */; };
+		80CF2F402387C43900A0EA88 /* Particle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 80CF2F3E2387C43900A0EA88 /* Particle.cpp */; };
+		80CF2F432387C44500A0EA88 /* Swarm.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 80CF2F412387C44500A0EA88 /* Swarm.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -30,6 +32,10 @@
 		80CF2F392382229A00A0EA88 /* libSDL2-2.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libSDL2-2.0.0.dylib"; path = "../../../../usr/local/Cellar/sdl2/2.0.10/lib/libSDL2-2.0.0.dylib"; sourceTree = "<group>"; };
 		80CF2F3B2384F8DF00A0EA88 /* Screen.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Screen.cpp; sourceTree = "<group>"; };
 		80CF2F3C2384F8DF00A0EA88 /* Screen.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Screen.hpp; sourceTree = "<group>"; };
+		80CF2F3E2387C43900A0EA88 /* Particle.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Particle.cpp; sourceTree = "<group>"; };
+		80CF2F3F2387C43900A0EA88 /* Particle.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Particle.hpp; sourceTree = "<group>"; };
+		80CF2F412387C44500A0EA88 /* Swarm.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Swarm.cpp; sourceTree = "<group>"; };
+		80CF2F422387C44500A0EA88 /* Swarm.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Swarm.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +73,10 @@
 				80CF2F312382214300A0EA88 /* main.cpp */,
 				80CF2F3B2384F8DF00A0EA88 /* Screen.cpp */,
 				80CF2F3C2384F8DF00A0EA88 /* Screen.hpp */,
+				80CF2F3E2387C43900A0EA88 /* Particle.cpp */,
+				80CF2F3F2387C43900A0EA88 /* Particle.hpp */,
+				80CF2F412387C44500A0EA88 /* Swarm.cpp */,
+				80CF2F422387C44500A0EA88 /* Swarm.hpp */,
 			);
 			path = "Particle Simulator";
 			sourceTree = "<group>";
@@ -135,7 +145,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				80CF2F432387C44500A0EA88 /* Swarm.cpp in Sources */,
 				80CF2F322382214300A0EA88 /* main.cpp in Sources */,
+				80CF2F402387C43900A0EA88 /* Particle.cpp in Sources */,
 				80CF2F3D2384F8DF00A0EA88 /* Screen.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

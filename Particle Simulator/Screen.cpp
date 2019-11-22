@@ -44,7 +44,14 @@ bool Screen::init() {
     return true;
 }
 
+void Screen::clear() {
+    memset(m_buffer, 0, SCREEN_WIDTH*SCREEN_HEIGHT*sizeof(Uint32));
+    
+}
+
 void Screen::setPixel(int x, int y, Uint8 red, Uint8 green, Uint8 blue) {
+    
+    if(x<0 || x>= SCREEN_WIDTH || y<0 || y>=SCREEN_HEIGHT) return;
     Uint32 color = 0;
     color += red;
     color <<=8;

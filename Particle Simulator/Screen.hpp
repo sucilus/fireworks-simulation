@@ -27,6 +27,7 @@ public:
     void setPixel(int x, int y, Uint8 red, Uint8 green, Uint8 blue);
     bool processEvents();
     void close();
+    void clear();
 };
 
 #endif /* Screen_hpp */
